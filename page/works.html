@@ -1,0 +1,30 @@
+---
+layout: blog
+title: Works
+---
+
+<link rel="stylesheet" href="/res/css/page.css">
+{% capture categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign category = categories | split:',' | sort %}
+<h2 class="category">Works</h2><br/>
+<div class="category-box">
+  <ul>
+    <li class="category-box-sub"><a href="#{{ word }}">Android &nbsp;<sup>1</sup></a></li>
+	<li class="category-box-sub"><a href="#{{ word }}">Ontology &nbsp;<sup>1</sup></a></li>
+  </ul>
+</div>
+<hr id="line"/>
+<h2 class="category" id="{{ word }}">Android</h2>
+<ul>
+<li class="category-sub">
+<a class="category-sub-title" href="#" >PushChat</a> 
+基于百度云推送的轻量级聊天软件
+</li>
+</ul>
+
+<h2 class="category" id="{{ word }}">Ontology</h2>
+<ul>
+<li class="category-sub"><a class="category-sub-title" href="#" >IQAS</a> 基于本体的智能答疑系统</li>
+</ul>
+<br/><br/>
+

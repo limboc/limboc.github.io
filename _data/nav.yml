@@ -1,0 +1,24 @@
+- href: /page/timing.html
+  icon: fa fa-clock-o
+  title: Articles
+
+- href: /page/tags.html
+  icon: fa fa-tags
+  title: Tags
+  newblank: fasle
+  
+- href: /page/works.html
+  icon: fa fa-book
+  title: Works
+
+#- href: /page/read.html
+#  icon:  fa fa-book
+#  title: 阅读
+
+#icon: fa fa-eyedropper
+#newblank: true
+
+
+- href: /page/about.html
+  icon: fa fa-star
+  title: About
