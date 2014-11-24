@@ -330,6 +330,20 @@ fork给自己 → clone到本地 → coding → push回自己 → github上提�
 
 ---
 
+
+##撤销修改
+
+{% highlight python %}
+git log –-oneline				# 简化显示历史提交
+git reset --hard commit-ID		# 所谓的回滚其实就是将分支游标master指向之前的提交
+git push origin master 			# 若你的提交已经push到了远程库中，重置后的master指向若和远程库中不一致，那么会阻止push
+git push origin master --force  # 这时你只能强制push
+{% endhighlight %}
+![图片链接](/res/img/blog/2014/11/20/20141124-1120.jpg)
+
+---
+
+
 参考: 
 
 [http://git-scm.com/book/zh/v1](http://git-scm.com/book/zh/v1)
