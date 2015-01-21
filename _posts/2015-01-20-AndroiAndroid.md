@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AndroiAndroid好用且常用的插件及工具
+title: Android好用且常用的插件及工具
 category: Android
 date: 2015-01-20
 tags : [Android]
